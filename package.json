@@ -1,0 +1,30 @@
+{
+  "name": "bad-words-2",
+  "version": "0.0.0",
+  "description": "A bad word filter based on https://github.com/web-mech/badwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/petreboy14/bad-words-2.git"
+  },
+  "keywords": [
+    "bad-words",
+    "filter",
+    "mask"
+  ],
+  "author": "Peter Henning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petreboy14/bad-words-2/issues"
+  },
+  "homepage": "https://github.com/petreboy14/bad-words-2",
+  "devDependencies": {
+    "jshint": "^2.5.0",
+    "precommit-hook": "^0.4.1",
+    "lab": "^3.0.1",
+    "should": "^3.3.1"
+  }
+}
