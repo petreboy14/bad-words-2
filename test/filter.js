@@ -61,11 +61,6 @@ describe('Filter tests', function () {
 			filter.isProfane("that person is an ash0le").should.equal(true);
       done();
 		});
-
-    it("Should be able to detect a bad word inside of a word", function (done) {
-      filter.isProfane("that person is an greatasshole").should.equal(true);
-      done();
-    });
 	});
 
   describe('#addWords', function () {
