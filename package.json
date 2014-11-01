@@ -1,6 +1,6 @@
 {
   "name": "bad-words-2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A bad word filter based on https://github.com/web-mech/badwords",
   "main": "index.js",
   "scripts": {
